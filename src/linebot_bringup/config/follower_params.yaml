@@ -1,0 +1,14 @@
+line_follower:
+  ros__parameters:
+    kp: 1.6          # proportional gain
+    ki: 0.0          # integral gain (keep 0 unless there is steady drift)
+    kd: 0.25         # derivative gain
+    v_max: 0.18      # max forward speed (m/s)
+    v_min: 0.05      # min forward speed (m/s)
+    slow_gain: 0.8   # how much to slow down when error is large (0..1)
+    w_max: 2.0       # max turn rate (rad/s)
+    threshold: 80    # grayscale value below which a pixel counts as "line"
+    alpha: 0.6       # error low-pass filter (1 = no filtering)
+    min_pixels: 30   # min line pixels in a band to trust it
+    search_w: 0.8    # turn rate when line is lost (rad/s)
+    near_weight: 0.6 # weight of the near band vs far (look-ahead) band
