@@ -1,0 +1,17 @@
+[1.454s] Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data
+[1.787s] running develop
+[1.984s] running egg_info
+[2.001s] writing linebot_follower.egg-info/PKG-INFO
+[2.003s] writing dependency_links to linebot_follower.egg-info/dependency_links.txt
+[2.003s] writing entry points to linebot_follower.egg-info/entry_points.txt
+[2.003s] writing requirements to linebot_follower.egg-info/requires.txt
+[2.003s] writing top-level names to linebot_follower.egg-info/top_level.txt
+[2.038s] reading manifest file 'linebot_follower.egg-info/SOURCES.txt'
+[2.039s] writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+[2.056s] running build_ext
+[2.056s] Creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages/linebot-follower.egg-link (link to .)
+[2.057s] Installing line_follower script to /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/linebot_follower
+[2.057s] 
+[2.058s] Installed /home/manushri_kumbhakar/linebot_ws/build/linebot_follower
+[2.058s] running symlink_data
+[2.085s] Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower' returned '0': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data

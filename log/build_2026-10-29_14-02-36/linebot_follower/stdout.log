@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating linebot_follower.egg-info
+writing linebot_follower.egg-info/PKG-INFO
+writing dependency_links to linebot_follower.egg-info/dependency_links.txt
+writing entry points to linebot_follower.egg-info/entry_points.txt
+writing requirements to linebot_follower.egg-info/requires.txt
+writing top-level names to linebot_follower.egg-info/top_level.txt
+writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+reading manifest file 'linebot_follower.egg-info/SOURCES.txt'
+writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages/linebot-follower.egg-link (link to .)
+Installing line_follower script to /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/linebot_follower
+
+Installed /home/manushri_kumbhakar/linebot_ws/build/linebot_follower
+running symlink_data
+creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index
+creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index
+creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index/packages
+symbolically linking /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/resource/linebot_follower -> /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index/packages
+symbolically linking /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/package.xml -> /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower

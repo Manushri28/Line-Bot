@@ -1,0 +1,9 @@
+source;share/linebot_follower/hook/pythonpath.ps1
+source;share/linebot_follower/hook/pythonpath.dsv
+source;share/linebot_follower/hook/pythonpath.sh
+source;share/linebot_follower/hook/ament_prefix_path.ps1
+source;share/linebot_follower/hook/ament_prefix_path.dsv
+source;share/linebot_follower/hook/ament_prefix_path.sh
+source;../../build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.ps1
+source;../../build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.dsv
+source;../../build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.sh

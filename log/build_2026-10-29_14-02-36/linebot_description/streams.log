@@ -1,0 +1,50 @@
+[0.027s] Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake /home/manushri_kumbhakar/linebot_ws/src/linebot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manushri_kumbhakar/linebot_ws/install/linebot_description
+[0.332s] -- The C compiler identification is GNU 13.3.0
+[0.699s] -- The CXX compiler identification is GNU 13.3.0
+[0.994s] -- Detecting C compiler ABI info
+[1.181s] -- Detecting C compiler ABI info - done
+[1.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.192s] -- Detecting C compile features
+[1.193s] -- Detecting C compile features - done
+[1.249s] -- Detecting CXX compiler ABI info
+[1.433s] -- Detecting CXX compiler ABI info - done
+[1.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.442s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.477s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.934s] -- Configuring done (1.8s)
+[1.939s] -- Generating done (0.0s)
+[1.941s] -- Build files have been written to: /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+[1.946s] Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake /home/manushri_kumbhakar/linebot_ws/src/linebot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manushri_kumbhakar/linebot_ws/install/linebot_description
+[1.948s] Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+[1.984s] Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+[1.994s] Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+[2.001s] -- Install configuration: ""
+[2.002s] -- Execute custom install script
+[2.004s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/generate_world.py
+[2.012s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot1.sdf
+[2.019s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot2.sdf
+[2.029s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot3.sdf
+[2.037s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot4.sdf
+[2.045s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot5.sdf
+[2.054s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot6.sdf
+[2.063s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_track.sdf
+[2.073s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/waypoints.csv
+[2.084s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/package_run_dependencies/linebot_description
+[2.092s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/parent_prefix_path/linebot_description
+[2.103s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/ament_prefix_path.sh
+[2.114s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/ament_prefix_path.dsv
+[2.123s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/path.sh
+[2.130s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/path.dsv
+[2.141s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.bash
+[2.148s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.sh
+[2.158s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.zsh
+[2.165s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.dsv
+[2.176s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.dsv
+[2.186s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/packages/linebot_description
+[2.196s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/cmake/linebot_descriptionConfig.cmake
+[2.204s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/cmake/linebot_descriptionConfig-version.cmake
+[2.212s] -- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.xml
+[2.221s] Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description

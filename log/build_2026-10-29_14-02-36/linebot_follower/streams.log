@@ -1,0 +1,24 @@
+[1.733s] Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data
+[2.108s] running develop
+[2.298s] running egg_info
+[2.298s] creating linebot_follower.egg-info
+[2.314s] writing linebot_follower.egg-info/PKG-INFO
+[2.314s] writing dependency_links to linebot_follower.egg-info/dependency_links.txt
+[2.314s] writing entry points to linebot_follower.egg-info/entry_points.txt
+[2.315s] writing requirements to linebot_follower.egg-info/requires.txt
+[2.315s] writing top-level names to linebot_follower.egg-info/top_level.txt
+[2.315s] writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+[2.346s] reading manifest file 'linebot_follower.egg-info/SOURCES.txt'
+[2.347s] writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+[2.366s] running build_ext
+[2.366s] Creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages/linebot-follower.egg-link (link to .)
+[2.366s] Installing line_follower script to /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/linebot_follower
+[2.367s] 
+[2.367s] Installed /home/manushri_kumbhakar/linebot_ws/build/linebot_follower
+[2.368s] running symlink_data
+[2.368s] creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index
+[2.368s] creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index
+[2.368s] creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index/packages
+[2.369s] symbolically linking /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/resource/linebot_follower -> /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/ament_index/resource_index/packages
+[2.369s] symbolically linking /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/package.xml -> /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower
+[2.397s] Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower' returned '0': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data

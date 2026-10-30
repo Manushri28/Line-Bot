@@ -1,0 +1,1 @@
+/home/manushri_kumbhakar/linebot_ws/build/linebot_description/ament_cmake_environment_hooks/local_setup.zsh

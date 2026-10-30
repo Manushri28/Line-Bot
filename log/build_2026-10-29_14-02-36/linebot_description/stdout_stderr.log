@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/generate_world.py
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot1.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot2.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot3.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot4.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot5.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot6.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_track.sdf
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/waypoints.csv
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/package_run_dependencies/linebot_description
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/parent_prefix_path/linebot_description
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/path.sh
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/environment/path.dsv
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.bash
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.sh
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.zsh
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/local_setup.dsv
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.dsv
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/ament_index/resource_index/packages/linebot_description
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/cmake/linebot_descriptionConfig.cmake
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/cmake/linebot_descriptionConfig-version.cmake
+-- Symlinking: /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.xml

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: linebot-follower
+Version: 0.1.0
+Summary: OpenCV + PID line follower
+Maintainer: team
+Maintainer-email: you@example.com
+License: MIT
