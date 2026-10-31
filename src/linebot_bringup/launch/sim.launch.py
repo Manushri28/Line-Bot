@@ -17,6 +17,7 @@ def generate_launch_description():
 
     # NEW: lets Gazebo resolve package://linebot_description/meshes/...
     set_res = AppendEnvironmentVariable('GZ_SIM_RESOURCE_PATH', os.path.dirname(desc))
+    set_res2 = AppendEnvironmentVariable('GZ_SIM_RESOURCE_PATH', desc)
 
     world_arg = DeclareLaunchArgument(
         'world', default_value=os.path.join(desc, 'worlds', 'line_track.sdf'))
@@ -55,6 +56,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         set_res,                       # NEW: must come first
+        set_res2,
         world_arg,
         gazebo, rsp, bridge,
         TimerAction(period=3.0, actions=[spawn]),

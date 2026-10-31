@@ -1,4 +1,5 @@
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/urdf/robot.urdf
+/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/final_grading.sdf
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/generate_world.py
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot1.sdf
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_bot2.sdf
@@ -9,6 +10,7 @@
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/line_track.sdf
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/worlds/waypoints.csv
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/meshes/caster_wheel.stl
+/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/meshes/final_grading.stl
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/meshes/flat_chasis.stl
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/meshes/left_axle.stl
 /home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/meshes/left_wheel.stl

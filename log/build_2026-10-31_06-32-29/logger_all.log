@@ -1,0 +1,258 @@
+[0.338s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.338s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x745230d72cf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x745230eab620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x745230eab620>>, mixin_verb=('build',))
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.425s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manushri_kumbhakar/linebot_ws'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_bringup) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linebot_bringup' with type 'ros.ament_cmake' and name 'linebot_bringup'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_description) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linebot_description' with type 'ros.ament_cmake' and name 'linebot_description'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/linebot_follower) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linebot_follower' with type 'ros.ament_python' and name 'linebot_follower'
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.536s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/jazzy
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'linebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manushri_kumbhakar/linebot_ws/build/linebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manushri_kumbhakar/linebot_ws/install/linebot_description', 'merge_install': False, 'path': '/home/manushri_kumbhakar/linebot_ws/src/linebot_description', 'symlink_install': True, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'linebot_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'linebot_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower', 'merge_install': False, 'path': '/home/manushri_kumbhakar/linebot_ws/src/linebot_follower', 'symlink_install': True, 'test_result_base': None}
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'linebot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'linebot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manushri_kumbhakar/linebot_ws/build/linebot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup', 'merge_install': False, 'path': '/home/manushri_kumbhakar/linebot_ws/src/linebot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.682s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_description' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_description'
+[0.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.698s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_follower' with build type 'ament_python'
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_follower', 'ament_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/ament_prefix_path.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/ament_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/ament_prefix_path.sh'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+[0.996s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_follower'
+[0.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+[1.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linebot_description)
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description' for CMake module files
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description' for CMake config files
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_description', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.sh'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/bin'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/lib/pkgconfig/linebot_description.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/lib/python3.12/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/colcon-core/packages/linebot_description)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linebot_description)
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description' for CMake module files
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description' for CMake config files
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_description', 'cmake_prefix_path')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/hook/cmake_prefix_path.sh'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/bin'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/lib/pkgconfig/linebot_description.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/lib/python3.12/site-packages'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/bin'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.sh'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.bash'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/linebot_description/package.zsh'
+[1.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manushri_kumbhakar/linebot_ws/install/linebot_description/share/colcon-core/packages/linebot_description)
+[1.860s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, saveopts, sdist, install_lib, upload, init_catalog, bdist_rpm, build_scripts, compile_catalog, rotate, build_ext, bdist, update_catalog, build_clib, register, upload_docs, alias, symlink_data, check, install_data, test, extract_messages, dist_info, easy_install, bdist_wheel, develop, install_scripts, bdist_dumb, install, editable_wheel, bdist_egg, install_headers, install_egg_info, setopt, clean, build, build_py
+[2.116s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --install-dir, --optimize, --no-deps, --upgrade, --always-copy, --install-layout, --multi-version, --egg-path, --build-directory, --verbose, --no-user-cfg, --version, --script-dir, --uninstall, --always-unzip, --help, --index-url, --record, --force-installation-into-system-dir, --dry-run, --site-dirs, --find-links, --editable, --quiet, --user, --exclude-scripts, --no-find-links, --prefix, --zip-ok, --local-snapshots-ok
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data
+[2.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_follower', 'pythonpath_develop')
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.dsv'
+[2.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower' returned '0': PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manushri_kumbhakar/linebot_ws/build/linebot_follower/build --no-deps symlink_data
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/build/linebot_follower/share/linebot_follower/hook/pythonpath_develop.sh'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower' for CMake module files
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower' for CMake config files
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/bin'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/pkgconfig/linebot_follower.pc'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages'
+[2.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_follower', 'pythonpath')
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/pythonpath.ps1'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/pythonpath.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/hook/pythonpath.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/bin'
+[2.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linebot_follower)
+[2.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/package.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/package.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/package.sh'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/package.bash'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/linebot_follower/package.zsh'
+[2.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/share/colcon-core/packages/linebot_follower)
+[2.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_bringup' with build type 'ament_cmake'
+[2.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manushri_kumbhakar/linebot_ws/src/linebot_bringup'
+[2.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_bringup': AMENT_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_bringup -- -j10 -l10
+[2.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_bringup' returned '0': AMENT_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_bringup -- -j10 -l10
+[2.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_bringup': AMENT_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_bringup
+[2.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linebot_bringup)
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup' for CMake module files
+[2.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_bringup' returned '0': AMENT_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manushri_kumbhakar/linebot_ws/install/linebot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/manushri_kumbhakar/linebot_ws/build/linebot_follower:/home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_bringup
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup' for CMake config files
+[2.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_bringup', 'cmake_prefix_path')
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.ps1'
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.dsv'
+[2.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.sh'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/bin'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/lib/pkgconfig/linebot_bringup.pc'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/lib/python3.12/site-packages'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/bin'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.ps1'
+[2.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.dsv'
+[2.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.sh'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.bash'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.zsh'
+[2.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/colcon-core/packages/linebot_bringup)
+[2.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linebot_bringup)
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup' for CMake module files
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup' for CMake config files
+[2.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('linebot_bringup', 'cmake_prefix_path')
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/hook/cmake_prefix_path.sh'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/bin'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/lib/pkgconfig/linebot_bringup.pc'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/lib/python3.12/site-packages'
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/bin'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.ps1'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.dsv'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.sh'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.bash'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/linebot_bringup/package.zsh'
+[2.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manushri_kumbhakar/linebot_ws/install/linebot_bringup/share/colcon-core/packages/linebot_bringup)
+[2.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.871s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.872s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.872s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.912s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.914s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.915s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manushri_kumbhakar/linebot_ws/install/local_setup.ps1'
+[2.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manushri_kumbhakar/linebot_ws/install/_local_setup_util_ps1.py'
+[2.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manushri_kumbhakar/linebot_ws/install/setup.ps1'
+[2.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manushri_kumbhakar/linebot_ws/install/local_setup.sh'
+[2.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manushri_kumbhakar/linebot_ws/install/_local_setup_util_sh.py'
+[2.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manushri_kumbhakar/linebot_ws/install/setup.sh'
+[2.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manushri_kumbhakar/linebot_ws/install/local_setup.bash'
+[2.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manushri_kumbhakar/linebot_ws/install/setup.bash'
+[2.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manushri_kumbhakar/linebot_ws/install/local_setup.zsh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manushri_kumbhakar/linebot_ws/install/setup.zsh'

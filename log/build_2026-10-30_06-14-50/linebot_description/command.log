@@ -1,0 +1,4 @@
+Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/manushri_kumbhakar/linebot_ws/build/linebot_description -- -j10 -l10
+Invoking command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description
+Invoked command in '/home/manushri_kumbhakar/linebot_ws/build/linebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/manushri_kumbhakar/linebot_ws/build/linebot_description

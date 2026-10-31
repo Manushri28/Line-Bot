@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing linebot_follower.egg-info/PKG-INFO
+writing dependency_links to linebot_follower.egg-info/dependency_links.txt
+writing entry points to linebot_follower.egg-info/entry_points.txt
+writing requirements to linebot_follower.egg-info/requires.txt
+writing top-level names to linebot_follower.egg-info/top_level.txt
+reading manifest file 'linebot_follower.egg-info/SOURCES.txt'
+writing manifest file 'linebot_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/python3.12/site-packages/linebot-follower.egg-link (link to .)
+Installing line_follower script to /home/manushri_kumbhakar/linebot_ws/install/linebot_follower/lib/linebot_follower
+
+Installed /home/manushri_kumbhakar/linebot_ws/build/linebot_follower
+running symlink_data
